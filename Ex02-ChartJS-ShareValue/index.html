@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share Value Demo</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div style="width: 1000px; height: 500px; margin: auto;">
+        <canvas id="barChart" style="max-height: 900px;max-width: 700px;"></canvas>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            // Data for shares
+            var sharesData = {
+                labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct"],
+                datasets: [
+                    {
+                        label: "Share A",
+                        borderColor: "blue",
+                        backgroundColor: "blue",
+                        data: [100, 110, 120, 115, 130, 125, 135, 140, 150, 155],
+                        type: 'line'
+                    },
+                    {
+                        label: "Share B",
+                        borderColor: "green",
+                        backgroundColor: "green",
+                        data: [90, 95, 100, 105, 110, 115, 120, 125, 130, 135],
+                        type: 'line'
+                    },
+                    {
+                        label: "Share C",
+                        backgroundColor: "orange",
+                        data: [80, 85, 90, 85, 95, 100, 105, 110, 115, 120],
+                        type: 'bar'
+                    },
+                    {
+                        label: "Share D",
+                        backgroundColor: "red",
+                        data: [70, 75, 80, 85, 90, 95, 100, 105, 110, 115],
+                        type: 'bar'
+                    }
+                ]
+            };
+
+            // Bar chart
+            var barChartContext = document.getElementById('barChart').getContext('2d');
+            var barChart = new Chart(barChartContext, {
+                type: 'bar',
+                data: sharesData,
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false
+                }
+            });
+
+            // // Line chart
+            // var lineChartContext = document.getElementById('lineChart').getContext('2d');
+            // var lineChart = new Chart(lineChartContext, {
+            //     type: 'line',
+            //     data: sharesData,
+            //     options: {
+            //         responsive: true,
+            //         maintainAspectRatio: false
+            //     }
+            // });
+        });
+    </script>
+</body>
+</html>

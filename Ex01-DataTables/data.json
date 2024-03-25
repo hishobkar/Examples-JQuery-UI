@@ -1,0 +1,22 @@
+[
+    {"id": 1, "firstname": "John", "lastname": "Doe", "age": 30, "salary": 50000, "dateofjoining": "2023-01-15"},
+    {"id": 2, "firstname": "Jane", "lastname": "Smith", "age": 35, "salary": 60000, "dateofjoining": "2022-05-20"},
+    {"id": 3, "firstname": "Michael", "lastname": "Johnson", "age": 28, "salary": 55000, "dateofjoining": "2023-02-10"},
+    {"id": 4, "firstname": "Emily", "lastname": "Brown", "age": 32, "salary": 62000, "dateofjoining": "2021-11-08"},
+    {"id": 5, "firstname": "Daniel", "lastname": "Martinez", "age": 40, "salary": 70000, "dateofjoining": "2022-08-25"},
+    {"id": 6, "firstname": "Olivia", "lastname": "Wilson", "age": 29, "salary": 53000, "dateofjoining": "2023-04-30"},
+    {"id": 7, "firstname": "William", "lastname": "Taylor", "age": 33, "salary": 65000, "dateofjoining": "2022-03-14"},
+    {"id": 8, "firstname": "Emma", "lastname": "Anderson", "age": 31, "salary": 58000, "dateofjoining": "2021-09-05"},
+    {"id": 9, "firstname": "Alexander", "lastname": "Thomas", "age": 36, "salary": 68000, "dateofjoining": "2022-06-18"},
+    {"id": 10, "firstname": "Sophia", "lastname": "White", "age": 27, "salary": 51000, "dateofjoining": "2023-03-22"},
+    {"id": 11, "firstname": "James", "lastname": "Jones", "age": 34, "salary": 66000, "dateofjoining": "2021-07-12"},
+    {"id": 12, "firstname": "Ava", "lastname": "Davis", "age": 38, "salary": 72000, "dateofjoining": "2022-10-29"},
+    {"id": 13, "firstname": "Benjamin", "lastname": "Miller", "age": 26, "salary": 49000, "dateofjoining": "2023-06-05"},
+    {"id": 14, "firstname": "Mia", "lastname": "Moore", "age": 39, "salary": 74000, "dateofjoining": "2021-12-18"},
+    {"id": 15, "firstname": "Elijah", "lastname": "Garcia", "age": 37, "salary": 70000, "dateofjoining": "2022-04-17"},
+    {"id": 16, "firstname": "Charlotte", "lastname": "Hernandez", "age": 28, "salary": 54000, "dateofjoining": "2023-08-09"},
+    {"id": 17, "firstname": "David", "lastname": "Young", "age": 32, "salary": 67000, "dateofjoining": "2021-10-02"},
+    {"id": 18, "firstname": "Amelia", "lastname": "King", "age": 29, "salary": 56000, "dateofjoining": "2022-12-11"},
+    {"id": 19, "firstname": "Logan", "lastname": "Allen", "age": 33, "salary": 69000, "dateofjoining": "2021-05-28"},
+    {"id": 20, "firstname": "Harper", "lastname": "Scott", "age": 30, "salary": 57000, "dateofjoining": "2023-01-08"}
+]
